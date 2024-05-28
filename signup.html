@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+    .forms{
+        padding-top:10px;
+    }
+
+    .login-form{
+        height:450px;
+    }
+</style>
+</head>
+<body>
+
+    <div class="section">
+        <div class= "login-form">
+            <div>
+                <h1>SignUp</h1>
+            </div>
+        <form class="forms" id="form" action="">
+
+            <div class="input-group">
+                    <input  type="text" id="username" placeholder="Username">
+                    <div class="error"></div>
+            </div>
+                
+            
+            <div class="input-group">
+                <input  type="email" id="email" placeholder="Email id">
+                <div class="error"></div>
+            </div>
+                
+    
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Create password"> 
+                <div class="error"></div>
+            </div>
+                
+        
+            <div class="input-group">
+                <input type="password" id="password2" placeholder="Confirm password">
+                <div class="error"></div>
+            </div>
+                
+                
+
+            <div class="button">
+                <button class="btn" type="submit" id="btn">Create Account</button>
+            </div>
+            
+    
+            <div class="field-1">
+                <h5>Already have an account?<a href="index.html">login</a></h5>
+            </div>
+        </form>
+            
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+    
+    
+
+</html>
